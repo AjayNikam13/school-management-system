@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+		.I
+		{
+			background-color: yellow;
+			width: "60";
+			
+		}
+		.I:hover
+		{
+			text-shadow :red;
+			background-color: aqua;
+			display: block;
+			
+		}
+		
+	</style>
+</head>
+<body bgcolor="grey">
+	<h1 align="center" style="color: red; font-family: cursive; font-size: 20px; text-shadow: 2px 2px black"><u>*Select below Option*</u> </h1>
+
+<table border="2" align ="center" bordercolor="blue" width="400">
+	<tr bgcolor="#DEB887">
+		<td>
+		<form action="select" method="post">
+		
+			<table border="1" cellpadding="8" width="400">
+				<tr>
+					<td><label>MANAGEMENT</label></td>
+					<td align="center"><input type="radio" value="management" name="role"></td> 
+				</tr>
+				<tr>
+					<td><label>TEACHER</label></td>
+					<td align="center"><input type="radio" value="teacher" name="role"></td>
+				</tr>
+				<tr>
+					<td><label>STUDENT</label></td>
+					<td align="center"><input type="radio" value="student" name="role"></td>
+				</tr>
+				<tr>
+					<td>EMAIL <sup> <font color="red">*</font></sup></td>
+					<td><input type="email" name="email" required="required" placeholder="Enter Email"></td>
+				</tr>
+				<tr>
+					<td>PASSWORD  <sup> <font color="red">*</font></sup></td>
+					<td><input type="password" name="password" required="required" placeholder="Enter Password"></td>
+				</tr>
+			</table>
+			
+			<table align="center">
+				<tr>
+					<td ><input type="submit" value="Login" class="I"></td>
+					<td ><input type="reset" value="Reset" class="I"></td>  
+					
+				</tr>
+				
+			</table>
+			
+		</form>
+		
+		</td>
+	</tr>	
+</table>
+</body>
+</html>
